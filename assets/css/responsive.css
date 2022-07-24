@@ -1,0 +1,779 @@
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+  /* CSS */
+  .member-slide .member {
+    padding: 15px 15% !important;
+
+}
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  /* CSS */
+  .update-noti .icon {
+    width: 40% !important;
+}
+.update-noti .update-news p{
+    color: white;
+    font-size: 16px;
+}
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 767px) and (max-width: 1025px) {
+  
+  /* CSS */
+    .update-noti .icon {
+    width: 40% !important;
+    padding: 5px 0px 5px 0px !important;
+}
+.update-noti .update-news p{
+    color: white;
+    font-size: 16px;
+}  .update-noti .icon {
+    width: 40% !important;
+}
+.update-noti .update-news p{
+    color: white;
+    font-size: 16px;
+}
+
+  .Un-button .btn3 {
+    margin: 0px 10px !important;
+    height: 100px !important;
+    width: 135px !important;
+}
+.Un-button .col-md-1 {
+    padding: 0px 40px !important;
+}
+  .member-slide .member {
+    padding: 15px 100px !important;
+    width: 70% !important;
+
+}
+  .navbar .indicator {
+  left: 60px !important;
+}
+
+.Menu .navbar ul li:nth-child(1).active~ .indicator{
+
+    transform: translateX(calc(180px * 0));
+}
+.Menu .navbar ul li:nth-child(2).active~ .indicator{
+
+    transform: translateX(calc(180px * 1));
+}
+.Menu .navbar ul li:nth-child(3).active~ .indicator{
+
+    transform: translateX(calc(180px * 2));
+}
+.Menu .navbar ul li:nth-child(4).active~ .indicator{
+
+    transform: translateX(calc(180px * 3));
+}
+.Menu .navbar ul li:nth-child(5).active~ .indicator{
+
+    transform: translateX(calc(180px * 4));
+}
+
+
+}
+
+
+
+
+
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 768px) {
+  
+  /* CSS */
+  .update-noti .icon img {
+    margin: 2px 0px 25px 0px !important;
+}
+.update-noti .icon{
+    padding: 0px !important;
+}
+
+  .notification .update-noti {
+    padding: 0px 10px !important;
+}
+  .Un-button .col-md-1 {
+    padding: 0px 30px !important;
+}
+.Un-button .btn3 {
+    margin: 0px 10px !important;
+    width: 112px !important;
+    height: 100px;
+}
+.Un-button .btn3 h4{
+  font-size: 20px;
+}
+.member-slide .button {
+    padding-top: 20px !important;
+}
+
+.member-slide .button i{
+  font-size: 20px !important;
+}
+.member-slide .button p{
+  font-size: 15px !important;
+}
+.member-slide .member .img img {
+  width: 350px !important;
+}
+
+  .navbar .indicator {
+  left: 35px !important;
+}
+
+.Menu .navbar ul li:nth-child(1).active~ .indicator{
+
+    transform: translateX(calc(130px * 0));
+}
+.Menu .navbar ul li:nth-child(2).active~ .indicator{
+
+    transform: translateX(calc(130px * 1));
+}
+.Menu .navbar ul li:nth-child(3).active~ .indicator{
+
+    transform: translateX(calc(130px * 2));
+}
+.Menu .navbar ul li:nth-child(4).active~ .indicator{
+
+    transform: translateX(calc(132px * 3));
+}
+.Menu .navbar ul li:nth-child(5).active~ .indicator{
+
+    transform: translateX(calc(133px * 4));
+}
+
+
+
+
+
+
+  
+}
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 374px to 479px
+*/
+
+@media (min-width: 370px) and (max-width: 480px) {
+
+  
+  /* CSS */
+.notification{
+    height: 40px !important;
+}
+    .notification .update-noti {
+    padding: 0px 0px !important;
+}
+.update-noti .icon {
+    width: 70% !important;
+    margin-bottom: 6px !important;
+}
+.update-noti .update-news {
+    padding: 10px 5px 0px 5px !important;
+}
+.update-noti .update-news p{
+    font-size: 12px !important;
+}
+
+
+
+
+
+
+  .nav-bar i {
+    font-size: 20px !important;
+  }
+  .nav-bar{
+    height: 70px !important;
+  }
+  .nav-bar img{
+    width: 30px !important;
+  }
+  .nav-bar span{
+    font-size: 15px !important;
+    font-weight: 500 !important;
+  }
+
+  .Un-button .btn3{
+    margin: 0px 5px 0px 0px !important;
+    padding: 10px !important;
+    height: 50px !important;
+    width: 65px !important;
+}
+
+.Un-button .btn3 i{
+    font-size: 15px;
+    color: white;
+
+}
+
+.Un-button .btn3 h4{
+  font-size: 10px;
+  font-weight: 500;
+
+}
+
+.Un-button .border-line{
+    height: 100%;
+    background-color: white;
+    border: 0.1px dashed;
+
+}
+.Un-button .col-1 {
+    padding: 0px 17px !important;
+}
+.Un-button .col-5{
+  padding: 0px 15px 0px 0px !important;
+}
+
+
+.Un-button .border-line{
+    height: 100%;
+    background-color: white;
+    border: 0.1px dashed;
+
+}
+.Un-button .UserName{
+    width: 100% !important;
+    border-radius: 5px !important;
+    height: 51px !important;
+    padding: 5px !important;
+}
+
+.Un-button .UserName i{
+    font-size: 15px !important;
+    margin-right: 10px;
+    
+}
+.Un-button .UserName span{
+    font-size: 15px !important;    
+}
+.Un-button .Wallet{
+    margin-left: 15px !important;
+}
+
+.Un-button .Wallet p{
+    font-size: 15px !important;
+    
+}
+.Un-button .Wallet span{
+    font-size: 15px !important;
+    font-weight: 700 !important;
+    
+
+}
+
+.member-slide {
+    width: 95% !important;
+    margin: 10px !important;
+    height: 445px !important;
+
+
+}
+.member-button{
+  padding: 0px !important;
+}
+.member-slide .button i{
+    font-size: 15px !important;
+}
+.member-slide .button p{
+    font-size: 15px !important;
+}
+
+.member-slide .button{
+    width: 100%;
+    height: 70px !important;
+    margin: 10px auto;
+    padding: 0px 5px !important;
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.member-slide .member {
+    position: relative;
+    padding: 15px 15px !important;
+    width: 70% !important;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.member-slide .member .img img {
+    position: relative;
+    width: 250px !important;
+  }
+  .Down-Menu .Menu{
+    padding: 0px !important;
+    height: 90px !important;
+  }
+  .Menu .navbar ul{
+    padding: 0px !important;
+  }
+.Menu .navbar ul li a i{
+    line-height: 40px;
+    font-size: 20px;
+
+}
+.Menu .navbar ul li.active a i{
+
+    transform: translateY(2px);
+    color: #571ce0;
+}
+.Menu .navbar ul li a p{
+    font-size: 15px !important;
+    font-weight: 800 !important;
+    letter-spacing: .01px;
+}
+.navbar .indicator{
+    width: 85px !important;
+    top: 20px !important;
+    left: 0px !important;
+}
+
+.Menu .navbar ul li:nth-child(1).active~ .indicator{
+
+    transform: translateX(calc(85px * 0));
+}
+.Menu .navbar ul li:nth-child(2).active~ .indicator{
+
+    transform: translateX(calc(85px * 1));
+}
+.Menu .navbar ul li:nth-child(3).active~ .indicator{
+
+    transform: translateX(calc(85px * 2));
+}
+.Menu .navbar ul li:nth-child(4).active~ .indicator{
+
+    transform: translateX(calc(85px * 3));
+}
+.Menu .navbar ul li:nth-child(5).active~ .indicator{
+
+    transform: translateX(calc(85px * 4));
+}
+
+
+  
+}
+
+
+
+
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 319px to 375px
+*/
+
+@media (min-width: 319px) and (max-width: 380px) {
+
+  
+  /* CSS */
+  .update-noti .icon img {
+    width: 100%;
+}
+.update-noti .update-news {
+    padding: 10px 5px 2px 5px !important;
+}
+  .nav-bar i {
+    font-size: 20px !important;
+  }
+  .nav-bar{
+    height: 70px !important;
+  }
+  .nav-bar img{
+    width: 30px !important;
+  }
+  .nav-bar span{
+    font-size: 13px !important;
+    font-weight: 500 !important;
+  }
+  .Un-button .col-2{
+    padding: 0px !important;
+  }
+  .Un-button .btn3{
+    margin: 0px 10px 0px 10px !important;
+    padding: 10px 0px !important;
+    height: 50px !important;
+    width: 50px !important;
+}
+
+.Un-button .btn3 i{
+    font-size: 15px;
+    color: white;
+
+}
+
+.Un-button .btn3 h4{
+  font-size: 8px;
+  font-weight: 500;
+
+}
+
+.Un-button .border-line{
+    height: 100%;
+    background-color: white;
+    border: 0.1px dashed;
+
+}
+.Un-button .col-1 {
+    padding: 0px 15px !important;
+}
+.Un-button .col-5{
+  padding: 0px 15px 0px 0px !important;
+}
+
+
+.Un-button .border-line{
+    height: 100%;
+    background-color: white;
+    border: 0.1px dashed;
+
+}
+.Un-button .UserName{
+    width: 100% !important;
+    border-radius: 5px !important;
+    height: 51px !important;
+    padding: 5px !important;
+}
+
+.Un-button .UserName i{
+    font-size: 15px !important;
+    margin-right: 10px;
+    
+}
+.Un-button .UserName span{
+    font-size: 12px !important;    
+}
+.Un-button .Wallet{
+    margin-left: 20px !important;
+}
+
+.Un-button .Wallet p{
+    font-size: 12px !important;
+    
+}
+.Un-button .Wallet span{
+    font-size: 15px !important;
+    font-weight: 700 !important;
+    
+
+}
+
+.member-slide {
+    width: 95% !important;
+    margin: 10px !important;
+    height: 445px !important;
+
+
+}
+.member-button{
+  padding: 0px !important;
+}
+.member-slide .button i{
+    font-size: 15px !important;
+}
+.member-slide .button p{
+    font-size: 10px !important;
+}
+
+.member-slide .button{
+    width: 100%;
+    height: 70px !important;
+    margin: 10px auto;
+    padding: 5px 5px !important;
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.member-slide .member {
+    position: relative;
+    padding: 65px 30px !important;
+    width: 70% !important;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.member-slide .member .img img {
+    position: relative;
+    width: 180px !important;
+  }
+  .Down-Menu .Menu{
+    padding: 0px !important;
+    height: 90px !important;
+  }
+  .Menu .navbar ul{
+    padding: 0px !important;
+  }
+.Menu .navbar ul li a i{
+    line-height: 40px;
+    font-size: 20px;
+
+}
+.Menu .navbar ul li a p{
+    font-size: 12px !important;
+    font-weight: 800 !important;
+    letter-spacing: .001px;
+}
+.navbar .indicator{
+    width: 65px !important;
+    top: 20px !important;
+    left: 3px !important;
+}
+
+.Menu .navbar ul li:nth-child(1).active~ .indicator{
+
+    transform: translateX(calc(75px * 0));
+}
+.Menu .navbar ul li:nth-child(2).active~ .indicator{
+
+    transform: translateX(calc(76px * 1));
+}
+.Menu .navbar ul li:nth-child(3).active~ .indicator{
+
+    transform: translateX(calc(76px * 2));
+}
+.Menu .navbar ul li:nth-child(4).active~ .indicator{
+
+    transform: translateX(calc(76px * 3));
+}
+.Menu .navbar ul li:nth-child(5).active~ .indicator{
+
+    transform: translateX(calc(76px * 4));
+}
+
+
+
+
+
+
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 310px to 375px
+*/
+
+@media (min-width: 300px) and (max-width: 320px) {
+
+  
+  /* CSS */
+.notification{
+    height: 40px !important;
+}
+    .notification .update-noti {
+    padding: 0px 0px !important;
+}
+.update-noti .icon {
+    width: 100% !important;
+    margin-bottom: 6px !important;
+}
+.update-noti .update-news {
+    padding: 10px 5px 2px 5px !important;
+}
+.update-noti .update-news p{
+    font-size: 12px !important;
+}
+
+
+
+  .nav-bar i {
+    font-size: 20px !important;
+  }
+  .nav-bar{
+    height: 70px !important;
+  }
+  .nav-bar img{
+    width: 30px !important;
+  }
+  .nav-bar .col-3{
+    padding: 0px !important;
+  }
+  .nav-bar span{
+    font-size: 13px !important;
+    font-weight: 500 !important;
+  }
+  .Un-button .col-2{
+    padding: 0px !important;
+  }
+  .Un-button .btn3{
+    margin: 0px 10px 0px 10px !important;
+    padding: 10px 0px !important;
+    height: 50px !important;
+    width: 50px !important;
+}
+
+.Un-button .btn3 i{
+    font-size: 15px;
+    color: white;
+
+}
+
+.Un-button .btn3 h4{
+  font-size: 8px;
+  font-weight: 500;
+
+}
+
+.Un-button .border-line{
+    height: 100%;
+    background-color: white;
+    border: 0.1px dashed;
+
+}
+.Un-button .col-1 {
+    padding: 0px 13px !important;
+}
+.Un-button .col-5{
+  padding: 0px 15px 0px 0px !important;
+}
+
+
+.Un-button .border-line{
+    height: 100%;
+    background-color: white;
+    border: 0.1px dashed;
+
+}
+.Un-button .UserName{
+    width: 100% !important;
+    border-radius: 5px !important;
+    height: 51px !important;
+    padding: 5px !important;
+}
+
+.Un-button .UserName i{
+    font-size: 15px !important;
+    margin-right: 10px;
+    
+}
+.Un-button .UserName span{
+    font-size: 12px !important;    
+}
+.Un-button .Wallet{
+    margin-left: 20px !important;
+}
+
+.Un-button .Wallet p{
+    font-size: 12px !important;
+    
+}
+.Un-button .Wallet span{
+    font-size: 15px !important;
+    font-weight: 700 !important;
+    
+
+}
+
+.member-slide {
+    width: 95% !important;
+    margin: 10px !important;
+    height: 445px !important;
+
+
+}
+.member-button{
+  padding: 0px !important;
+}
+.member-slide .button i{
+    font-size: 15px !important;
+}
+.member-slide .button p{
+    font-size: 10px !important;
+}
+
+.member-slide .button{
+    width: 100%;
+    height: 70px !important;
+    margin: 10px auto;
+    padding: 5px 5px !important;
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.member-slide .member {
+    position: relative;
+    padding: 65px 15px !important;
+    width: 70% !important;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.member-slide .member .img img {
+    position: relative;
+    width: 180px !important;
+  }
+  .Down-Menu .Menu{
+    padding: 0px !important;
+    height: 90px !important;
+  }
+  .Menu .navbar ul{
+    padding: 0px !important;
+  }
+.Menu .navbar ul li a i{
+    line-height: 40px;
+    font-size: 20px;
+
+}
+.Menu .navbar ul li a p{
+    font-size: 12px !important;
+    font-weight: 800 !important;
+    letter-spacing: .001px;
+}
+.navbar .indicator{
+    width: 65px !important;
+    top: 20px !important;
+    left: 3px !important;
+}
+
+.Menu .navbar ul li:nth-child(1).active~ .indicator{
+
+    transform: translateX(calc(65px * 0));
+}
+.Menu .navbar ul li:nth-child(2).active~ .indicator{
+
+    transform: translateX(calc(60px * 1));
+}
+.Menu .navbar ul li:nth-child(3).active~ .indicator{
+
+    transform: translateX(calc(63px * 2));
+}
+.Menu .navbar ul li:nth-child(4).active~ .indicator{
+
+    transform: translateX(calc(63px * 3));
+}
+.Menu .navbar ul li:nth-child(5).active~ .indicator{
+
+    transform: translateX(calc(63px * 4));
+}
+
+
+
+
+
+
+  
+}

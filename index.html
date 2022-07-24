@@ -1,0 +1,518 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <!-- Style Css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Responsive Css -->
+    <link rel="stylesheet" href="assets/css/responsive.css">
+
+
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+    <title>Hello Cricket</title>
+  </head>
+  <body>
+ <!--Html section start  -->
+    <!-- NavBar -->
+        <section class="nav-bar">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-1 col-sm-1 col-1">
+                          <li class="nav-item dropdown">
+                            <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="bi bi-list"></i>
+                            </a>
+                            <ul class="dropdown-menu text-center">
+                              <li><a class="dropdown-item mb-2" href="#">Home</a></li>
+                              <li><a class="dropdown-item mb-2" href="#">User Profile Info</a></li>
+                              <li><a class="dropdown-item mb-2" href="#">App Download</a></li>
+                              <li><a class="dropdown-item mb-2" href="#">Vip Rules</a></li>
+                              <li><a class="dropdown-item mb-2" href="#">Affiliate Rebate</a></li>
+                              <li><a class="dropdown-item mb-2" href="#">About Us</a></li>
+                              <li><a class="dropdown-item mt-4" href="#">Cs</a></li>
+                              <li><a class="dropdown-item mb-2" href="#">LogOut</a></li>
+
+
+                            </ul>
+                          </li>
+                    </div>
+                    
+                    <div class="col-md-9 col-sm-9 col-8 text-start pb-2">
+                        <div>
+                            <a href="#">
+                                <img src="assets/images/logo.png" width="40px">
+                            </a>
+                            <span>Logo</span>
+                        </div>
+                        
+                    </div>
+                    
+                    <div class="col-md-2 col-sm-2 col-3">
+                        <a>
+                            <i class="bi bi-person-video2"></i>
+                        </a>
+                            <span>$ 0.00</span>
+                        
+                        
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    <!-- Navabar section end -->
+ 
+
+    <!-- Slider Section Html Start-->
+    <div class="slider-container mb-4">
+        <div class="slider">
+            <div class="slides">
+                <!-- navigation btn -->
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+                <input type="radio" name="radio-btn" id="radio4">
+                <input type="radio" name="radio-btn" id="radio5">
+                <!-- <input type="radio" name="radio-btn" id="radio5"> -->
+
+
+
+                <!-- img slider -->
+
+                <div class="slide first">
+                    <img src="assets/images/blog-img-1.png"  alt="">
+                </div>
+                <div class="slide">
+                    <img src="assets/images/blog-img-2.png" alt="">
+                </div>
+                <div class="slide">
+                    <img src="assets/images/blog-img-3.png" alt="">
+                </div>
+                <div class="slide">
+                    <img src="assets/images/blog-img-4.png" alt="">
+                </div>
+                <div class="slide">
+                    <img src="assets/images/blog-img-1.png" alt="">
+                </div>
+            </div>
+
+            <!-- manual navigation section -->
+            <div class="manual-nav">
+                <label for="radio1" class="manual-btn" onclick ="displayslide(1)"></label>
+                <label for="radio2" class="manual-btn" onclick ="displayslide(2)"></label>
+                <label for="radio3" class="manual-btn" onclick ="displayslide(3)"></label>
+                <label for="radio4" class="manual-btn" onclick ="displayslide(4)"></label>
+                <label for="radio5" class="manual-btn" onclick ="displayslide(5)"></label>
+            
+
+            </div>
+
+
+            
+        </div>
+        
+    </div>
+
+    <!-- Slider Section Html End--> 
+
+<!-- UserName Button div HTml start-->
+    <div class="notification">
+        <div class="container">
+            <div class="update-noti">
+                <div class="icon">
+                    <img src="assets/images/icon/accountment.png">
+                </div>
+                <div class="update-news">
+                    <marquee><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></marquee>
+                </div>
+            </div>
+        </div>
+    </div>
+<section class="Un-button container mt-5">
+    <div class="row text-center">
+        <div class="col-md-2 col-sm-2 col-2">
+            <div class="topUp-btn btn3">
+                <a href="">
+                    <i class="bi bi-briefcase-fill"></i>
+                    <h4>Top Up</h4>
+                </a>
+                
+            </div>
+        </div>
+        <div class="col-md-2 col-sm-2 col-2">
+            <div class="wtithdraw-btn btn3">
+                <a href="">
+                    <i class="bi bi-credit-card-fill"></i>
+                    <h4>Withdraw</h4>
+                </a>
+                
+            </div>
+        </div>
+        <div class="col-md-2 col-sm-2 col-2">
+            <div class="promotion-btn btn3">
+                <a href="">
+                    <i class="bi bi-megaphone-fill"></i>
+                    <h4>Promotion</h4>
+                </a>
+            </div>
+        </div>
+        <div class="col-md-1 col-sm-1 col-1">
+            <div class="border-line"></div>
+        </div>
+        <div class="col-md-5 col-sm-5 col-5">
+            <div class="UserName">
+                <i class="bi bi-person-circle"></i>
+                <span>User Name</span>
+                <div class="Wallet">
+                    <p>Wallet  <span>0.00</span></p>
+                </div>
+            </div>
+
+        </div>
+
+        
+    </div>
+</section>
+
+
+<!-- UserName Button div HTml start-->
+
+
+
+
+
+
+<!-- Member Slide Section Start -->
+<section class="member-slide m-5">
+    <div class="container">
+        <div class="row">
+            <!-- Side Button -->
+            <div class="col-md-3 col-sm-3 col-3 text-center member-button">
+                <div class="button active">
+                    <i class="bi bi-person-circle"></i>
+                    <p>Bronz Member</p>
+                </div>
+                <div class="button">
+                    <i class="bi bi-person-circle"></i>
+                    <p>Silver Member</p>
+                </div>
+                <div class="button">
+                    <i class="bi bi-person-circle"></i>
+                    <p>Gold Member</p>
+                </div>
+                <div class="button">
+                    <i class="bi bi-person-circle"></i>
+                    <p>Platinum Member</p>
+                </div>
+            </div>
+
+
+           <!-- Member Policy -->
+
+           <div class="col-md-9 col-sm-9 col-9 member text-center">
+               <div class="member-policy">
+                   <div class="img active">
+                       <img class="" id="bronz" src="assets/images/bronz-member.png">
+                   </div>
+                   <div class="img">
+                       <img class="" id="silver" src="assets/images/silver-member.png">
+                   </div>
+                   <div class="img">
+                       <img class="" id="gold" src="assets/images/gold-member.png">
+                   </div>
+                   <div class="img">
+                       <img class="" id="platinum" src="assets/images/platinum-member.png">
+                   </div>
+               </div>
+           </div>
+
+
+
+        </div>
+
+
+    </div>
+    
+</section>
+
+
+<!-- DownMenu Bar Html  Start-->
+<section class="Down-Menu">
+    <div class="container Menu">
+        <div class="navbar">
+          <ul>
+              <li class="list active">
+                <a href="#Home">
+                  <i class="bi bi-house-door"></i>
+                  <p>Home</p>
+                </a>
+              </li>
+              <li class="list">
+                <a href="#MatchList">
+                    <i class="bi bi-house-door"></i>
+                    <p>Match List</p>
+                </a>
+              </li>
+              <li class="list">
+                <a href="#Record">
+                  <i class="bi bi-house-door"></i>
+                  <p>Record</p>
+                </a>
+              </li>
+              <li class="list">
+                <a href="#VIP Level">
+                  <i class="bi bi-house-door"></i>
+                  <p>VIP Level</p>
+                </a>
+              </li>
+              <li class="list">
+                <a href="#Profile">
+                  <i class="bi bi-house-door"></i>
+                  <p>Profile</p>
+                </a>
+              </li>
+              <div class="indicator"></div>
+
+          </ul>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+<!-- DownMenu Bar Html  End-->
+<script>
+    const list1 = document.querySelectorAll('.list1');
+    function activeLink(){
+        list1.forEach((item1) => 
+        item1.classList.remove('active1'));
+        this.classList.add('active1');
+    }
+    list1.forEach((item1) => 
+    item1.addEventListener('click',activeLink));
+
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Member Slide Section End -->
+
+<script>
+    const btn1 = document.querySelectorAll(".member-button .button");
+    const img = document.querySelectorAll(".member-policy .img");
+
+    const removeActiveClass = () => {
+        btn1.forEach((t) => {
+            t.classList.remove("active");
+        });
+        img.forEach((g) => {
+        g.classList.remove("active");
+    });
+    };
+
+    btn1.forEach((t,a) => {
+        t.addEventListener("click", () => {
+            removeActiveClass();
+            img[a].classList.add("active");
+           t.classList.add("active"); 
+        });
+    });
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Slider Js Start -->
+    <script type="">
+
+        var number = 1;
+
+        setInterval(function(){
+
+            document.getElementById('radio'+number).checked = true;
+            number++;
+
+            if (number>5) {
+
+                number = 1;
+            }
+
+        },2000);
+    </script>
+
+
+        <script type="">
+
+
+
+
+        var first = document.getElementsByClassName('first');
+        setMargin(1);
+        var active = 0;
+
+        function displayslide(n) {
+            active = n;
+
+            setMargin(n);
+        }
+
+        function setMargin(num)
+        {           
+                if(num == 1){
+                    first[0].style.marginLeft = '0%';
+                }
+                else if(num == 2){
+                    first[0].style.marginLeft = '-20%';
+
+                }
+                else if(num == 3){
+                    first[0].style.marginLeft = '-40%';
+
+                }
+                else if(num == 4){
+                    first[0].style.marginLeft = '-60%';
+
+                }
+                else if(num == 5){
+                    first[0].style.marginLeft = '-80%';
+
+                }
+        }
+
+
+    </script>
+
+
+<!-- Member Slide Js -->
+
+    
+
+
+
+
+
+
+<!-- Member Slide Js -->
+
+
+
+
+
+
+
+
+
+<!-- DownMenu Js -->
+
+<script>
+    const list = document.querySelectorAll('.list');
+    function activeLink(){
+        list.forEach((item) => 
+        item.classList.remove('active'));
+        this.classList.add('active');
+    }
+    list.forEach((item) => 
+    item.addEventListener('click',activeLink));
+
+
+</script>
+
+
+
+    
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <!--Html section end  -->
+
+
+
+
+
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    
+  </body>
+</html>
